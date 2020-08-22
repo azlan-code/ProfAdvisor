@@ -1,0 +1,88 @@
+<!--
+Don't judge my web dev skills. I didn't put a lot of effort into this page.
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Prof Advisor</title>
+		<style>
+			@font-face { font-family: VarelaRound; src: url("/Varela_Round/VarelaRound-Regular.ttf"); } 
+		
+			body {
+				background: #222222;
+			}
+			
+			#campus {
+				font-family: VarelaRound, sans-serif;
+				position: relative;
+				width: 100px;
+				height: 30px;
+				line-height: 14px;
+				font-size: 14px;
+				color: #000000;
+				text-shadow: 0 1px white;
+				background: #DDDDDD;
+			}
+			
+			option {
+				font-family: VarelaRound, sans-serif;
+				color: black;
+				padding: 10px;
+				text-decoration: none;
+				display: block;
+			}
+			
+			#btn {
+				position: reletivce;
+				width: 200px;
+				height: 30px;
+				background-color: #4CAF50;
+				background-color: #A31621;
+				color: white;
+				font-size: 16px;
+				cursor: pointer;
+				font-family: VarelaRound, sans-serif;
+				font-weight: bold;
+			}
+			
+			h2, h3 {
+				font-family: VarelaRound, sans-serif;
+				color: #DDDDDD;
+			}
+			
+			div {
+				padding: 10px;
+				text-align: center;
+			}
+		</style>
+		
+		<script src="popup.js"></script>
+	</head>
+	
+	<body>
+		<div style="display:inline-block; vertical-align:top" >
+			<img src="icon48.png">
+		</div>
+		<div style="display:inline-block">
+			<h2>Prof Advisor<h2>
+		</div>
+		<hr>
+		<div style="display:inline-block">
+			<h3>Campus: </h3>
+		</div>
+		<div style="display:inline-block">
+			<select id="campus">
+				<option value="1091">Storrs</option>
+				<option value="5015">Hartford</option>
+				<option value="4543">Stamford</option>
+				<option value="4955">Waterbury</option>
+				<option value="4650">Avery Point</option>
+				<option value="4486">Hartford Law</option>
+			</select>
+		</div>
+		<div>
+			<button id="btn" type="button">Go!</button>
+		</div>
+	</body>
+</html>

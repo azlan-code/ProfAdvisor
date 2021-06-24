@@ -1,3 +1,5 @@
+This project is being archived as it no longer works with the new version of Student Admin (2021 update).
+
 # Description
 
 Prof Advisor is a tool for UConn students to help choose classes during the enrollment period. It takes data from RateMyProfessor and displays them on the users' Student Admin page.
